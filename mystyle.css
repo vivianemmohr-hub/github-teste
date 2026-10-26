@@ -1,0 +1,45 @@
+.Brasil {
+    width: 300px;
+    height: 150px;
+}
+
+.título {
+    color:blue;
+    font-size: 20px;
+    font-family:arial
+}
+
+.dados-pessoais {
+    color:rgb(18, 117, 56);
+    font-size: 15px;
+    font-family:arial
+}
+
+.habilitacoes
+{
+    color:rgb(224, 228, 34);
+    font-size: 15px;
+    font-family:arial
+}
+
+.experiencia
+{
+    color:rgb(185, 32, 32);
+    font-size: 15px;
+    font-family:arial
+}
+
+.ep{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(224, 228, 34);
+
+}
+
+a:hover{
+    color:rgb(18, 117, 56);
+    cursor: pointer;
+}
