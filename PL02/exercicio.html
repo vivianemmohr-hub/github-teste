@@ -6,12 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <div class="header">
     <header>
         <img src="https://www.cesaedigital.pt/fldrSite/img/cesae-digital-logo.svg" alt="cesae-digital-logo"> <br>
         <a href="https://www.cesaedigital.pt/ ">Ir para site oficial</a>
     </header>
+    </div>
+
+<div class="nav">
+    <nav>
+        <ul>
+            <a href="#sobre">Sobre</a>
+            <a href="#objetivos">Objetivos</a>
+            <a href="#natureza">Natureza</a>
+            <a href="#formulario">Formulário</a>
+        </ul>
+    </nav>
+    </div>
 
     <main>
+
+<div class="sobre">
 
     <h1><b>Sobre o CESAE digital</b></h1>
 
@@ -21,6 +36,10 @@
 
 Promover a combinação de experimentação com inovação contínua como instrumento para o desenvolvimento das competências digitais e a adaptação a um ambiente tecnológico em constante transformação.</p>
 
+</div>
+
+<div class="objetivos">
+
 <h2><b>Objetivos</b></h2>
 
 <p id="AlinhaDireita">O CESAE Digital passa a ser um Centro Protocolar ou Centro de Formação Profissional de Gestão Participada, sendo um organismo dotado de personalidade jurídica de direito público sem fins lucrativos. Estes são os seus objetivos: <br>
@@ -28,21 +47,65 @@ Promover a combinação de experimentação com inovação contínua como instru
 1. Responder às necessidades de formação designadamente nas áreas da economia digital e (re)qualificação profissional de ativos empregados e desempregados. <br>
 2. Potenciar o desenvolvimento das competências digitais, enquanto instrumento de promoção da empregabilidade dos ativos. <br>
 3. Promover a conceção e participação em percursos formativos qualificantes de jovens desempregados, com o objetivo de melhorar a sua empregabilidade. </p>
+</div>
 
+<div class="natureza">
 <h2><b>Natureza, atribuições e competências</b></h2>
 
 <p>São atribuições do CESAE Digital promover a realização de formação profissional e de reconhecimento, validação e certificação de competências, a prestação de serviços e apoio técnico a entidades no âmbito das áreas das Tecnologias da Informação e da Comunicação (TIC) e do Digital, prosseguindo a seguinte missão: <br>
 
-<ul>• Valorização dos ativos conducente à qualificação, certificação e aperfeiçoamento técnico dos profissionais e dos cidadãos em geral, com especial ênfase nos, facultando-lhes a frequência de ações reskilling e upskilling que favoreça o (re)ingresso rápido e de qualidade no mercado de trabalho e a melhoria da sua empregabilidade; <br>
-• Valorização da capacidade empresarial, através do desenvolvimento de ações de formação, consultoria e apoio técnico destinadas a empresas, associações empresariais, ou outros agentes económicos e/ou parceiros sociais, podendo, ainda, desenvolver ações de cooperação com entidades estrangeiras, tanto na área formativa, como de apoio técnico ou consultivo. <br></ul></p>
+• Valorização dos ativos conducente à qualificação, certificação e aperfeiçoamento técnico dos profissionais e dos cidadãos em geral, com especial ênfase nos, facultando-lhes a frequência de ações reskilling e upskilling que favoreça o (re)ingresso rápido e de qualidade no mercado de trabalho e a melhoria da sua empregabilidade; <br>
+• Valorização da capacidade empresarial, através do desenvolvimento de ações de formação, consultoria e apoio técnico destinadas a empresas, associações empresariais, ou outros agentes económicos e/ou parceiros sociais, podendo, ainda, desenvolver ações de cooperação com entidades estrangeiras, tanto na área formativa, como de apoio técnico ou consultivo. <br></p>
 
+</div>
+
+<div class="formulario">
+
+<h3>Formulário de contacto do CESAE</h3>
+
+<fieldset>
+    
+    <form action="processar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="genero">Gênero:</label> <br>
+        <input type="radio" id="masculino" name="genero" value="masculino" required> 
+        <label for="masculino">Masculino</label> <br>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label><br><br>
+
+        <label for="data_atual">Data Atual:</label>
+        <input type="date" id="data_atual" name="data_atual" required><br><br>
+
+        <label for="select">Turma:</label>
+        <select id="select" name="select" required>
+            <option value="">Selecione</option>
+            <option value="opcao1">Web Developer & Mobile</option>
+            <option value="opcao2">Outra</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="3" cols="30" required></textarea><br><br>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+</fieldset>
+</div>
+
+<div class="rodape">
+        <footer>
 <h3><b>Associados</b></h3>
 
 <img src="https://www.cesaedigital.pt/fldrSite/img/logo-Pessoas2030.svg" alt="Pessoas2030"> <img src="https://www.cesaedigital.pt/fldrSite/img/logo-PRR.svg" alt="PRR"> <img src="https://www.cesaedigital.pt/fldrSite/img/logo-Anqep.svg" alt="Anqep">
 
-<footer>
+
     <p>Desenvolvido por Viviane Mohr</p>
 </footer>
+</div>
 
 </main>
 

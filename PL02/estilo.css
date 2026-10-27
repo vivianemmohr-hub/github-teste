@@ -1,23 +1,40 @@
 body { 
 
-    background-color: lightgrey; 
-
+    background-color: bisque; 
     padding: 20px; 
+
 }
-h1, h2, h3, p {
+
+.header {
+
+    text-align: center;
+ }
+
+ .nav {
+
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 10px;
+
+ }
+
+.h1, h2, h2, h3, p {
 
     text-align: center; 
+      font-family: Lucida sans, sans-serif;
+
     } 
 
-#alinhaEsquerda {  
+    .rodape {
 
-   text-align: left; 
+    text-align: center;
+    background-color: gray;
+    text-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
 
-} 
+    }
 
-#alinhaDireita {  
 
-    text-align: right; 
-
- } 
-
+ 
