@@ -1,0 +1,37 @@
+{body 
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.caixa1 {
+  background-color: lightblue;
+  border: 15px solid green;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.caixa2{
+  background-color: lightblue;
+  border: 15px solid green;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.caixa3 {
+  background-color: lightblue;
+  border: 15px solid green;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+}
