@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patas Amigas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="header">
+        <header>
+            <div class="nav">
+                <nav>
+                    <div class="logo">Patas<span class="cor-destaque">Amigas</span></div>
+                    <ul>                                          
+                        <li><a href="#animais">Animais</li></a>
+                        <li><a href="#comoAdotar">Como adotar</li></a>
+                        <li><a href="#visitas">Visitas</li></a>
+                        <li><a href="#contacto">Contacto</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    
+        <div class="enunciado"> <br>
+            <h1>Dá uma casa a quem só precisa de carinho</h1>
+            <p>Somos uma associação do Porto que acolhe cães, gatos e coelhos à <br>
+            espera de uma família.</p> <br>
+            <button class="button">Conhecer os animais</button> 
+        </div>
+
+        <main>
+
+        <div class="animais" id="animais">
+            <h2>Animais para adoção</h2>
+
+            <div class="container">
+
+                <div class="caixa1">
+                    <div class="img-caixa1">
+                        <span class="selo">Novo</span>
+                        <img src="cao.svg" alt="imagem1">
+                    </div>
+                    <h3>Rex</h3>
+                    <p>Cão, 3 anos. Adora passear e brincar com a bola.</p>
+                </div> 
+
+                <div class="caixa2">
+                    <div class="img-caixa2">
+                        <img src="gato.svg" alt="imagem2">
+                    </div>
+
+                    <h3>Mia</h3>
+                    <p>Gata, 2 anos. Tranquila, gosta de dormir ao sol.</p>
+                </div> 
+
+                <div class="caixa3">
+                    <div class="img-caixa3">
+                        <img src="coelho.svg" alt="imagem3">
+                    </div>
+                    <h3>Tambor</h3>
+                    <p>Coelho, 1 ano. Curioso e muito meigo.</p>
+                </div> 
+
+            </div> 
+        </div> 
+
+        <div class="comoAdotar" id="comoAdotar">
+            <h2>Como adotar</h2>
+            <ol>
+                <li>Escolhe o animal que mais combina contigo.</li>
+                <li>Preenche o formulário de contacto.</li>
+                <li>Visita-nos para o conheceres pessoalmente.</li>
+                <li>Leva o teu novo amigo para casa.</li>
+            </ol>
+        </div>
+
+        <div class="horario" id="visitas">
+            <h2>Horário de visitas</h2>
+
+            <table class="tabela">
+    
+    <tr>
+        <td>Dia</td>
+        <td>Horário</td>
+    </tr>
+    
+    <tr>
+        <td>Segunda a Sexta</td>
+        <td>14h00 às 18h00</td>
+    </tr>
+    
+    <tr>
+        <td>Sábado</td>
+        <td>10h00 às 13h00</td>
+    </tr>
+    
+    <tr>
+        <td>Domingo</td>
+        <td>Encerrado</td>
+    </tr>
+</table>
+        </div>
+
+        <h2>Contacto</h2>
+
+        <div class="formulario" id="contacto">
+            
+            <form action="processar.php" method="post">
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="select">Animal:</label> <br>
+                    <select id="select" name="select" required>
+                        <option value="opcao1">Rex</option>
+                        <option value="opcao2">Mia</option>
+                        <option value="opcao3">Tambor</option>
+                    </select><br><br>
+
+                    <label for="mensagem">Mensagem:</label> <br>
+                    <textarea id="mensagem" name="mensagem" rows="3" cols="30" required></textarea><br><br>
+
+                       <div class="enviar">
+                            <input type="submit" value="Enviar">
+                        </div>
+            </form> 
+        </div>
+
+    </main>
+
+    <div class="rodape">
+        <footer>
+            <p>© 2026 Patas Amigas. Rua das Flores, 123, Porto.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
